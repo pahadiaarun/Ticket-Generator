@@ -49,7 +49,7 @@ This is a full-stack application that allows users to generate and download movi
 
    ```bash
    # Inside the backend directory
-   npm start
+   node index.js
    ```
 
    The backend server will run on `http://localhost:5000`.
