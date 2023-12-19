@@ -19,7 +19,7 @@ const TicketForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/generate-ticket', formData);
+      const response = await axios.post('https://ticket-generator-qrwy.onrender.com/generate-ticket', formData);
       setTicketData(response.data);
     } catch (error) {
       console.error('Error generating ticket:', error);
